@@ -15,7 +15,7 @@ Parâmetros
 
 ## Funcionalidades
 
-- Comunica-se com apisec.oceansec.com na porta 80.
+- Comunica-se com apisecx.oceansec.com na porta 80.
 - Gera uma chave única a partir de uma palavra-chave obtida via GET na API.
 - Gera um token JWT contendo o nome do usuário, o cargo e a chave única.
 - Zipa a pasta especificada.
