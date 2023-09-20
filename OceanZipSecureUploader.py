@@ -44,7 +44,7 @@ if __name__ == "__main__":
     with open(zip_name, 'rb') as f:
         files = {'file': f}
         headers = {'Authorization': f'Bearer {token}'}
-        response = requests.post("http://apisecx.oceansec.com:80/upload", files=files, headers=headers)
+        response = requests.post("http://apisecx.oceansec.com:80/uploadjwt", files=files, headers=headers)
         
         if response.status_code == 200:
             print("Arquivo enviado com sucesso!")
